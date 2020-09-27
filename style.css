@@ -1,1 +1,30 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+nav{
+
+    font-family: 'Stylish', sans-serif;
+    font-size: 2.5em;
+}
+
+nav ul{
+    margin-top: 60px;
+   margin-left: 60px;
+}
+
+nav ul a:hover{
+    color: deeppink !important;
+}
+
+.active-now {
+    color: #efe86e !important;
+}
+
+.background{
+    background-image: url("images/site-background.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 700px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
