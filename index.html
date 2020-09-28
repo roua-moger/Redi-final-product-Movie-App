@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
      <link rel="stylesheet" href="style.css"> 
+     <link href="fontawesome-free-5.14.0-web/css/all.css" rel="stylesheet">
 
      <!--Title-->
      <title>Finbo</title>
      
 </head>
-<body>
+<body class="container">
     <header >
         
         <nav class="navbar navbar-expand-lg navbar-light bg-light p-4">
@@ -49,16 +50,36 @@
                   <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
               </ul>
-              <!--
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-              -->
             </div>
           </nav>
     </header>
-    <div class="background">
+    <div class="background ">
+<!--
+        <div class="search col-md-4 col-sm-3 col-xs-6">
+            <input type="search" placeholder="Search...">
+            <button><i class="fa fa-search" aria-hidden="true"></i></button>
+            <div class="line"></div>
+          </div>
+-->
+        <div class=" row justify-content-md-center">
+            <div class="search ">
+                <p>Search for a Movie you want to know more about :</p>
+              <form class="form-inline my-2 my-sm-0 s-form">
+                 
+                <input class="" type="search" placeholder="Search" aria-label="Search">
+                <button class="s-button btn btn-outline-success my-2 my-sm-0" type="submit">
+                    <i class="fa fa-search" aria-hidden="true"></i></button>
+                    <div class="line"></div>
+                   
+                    <!--
+                    <div class="row justify-content-md-end">
+                    <button type="button" class=" btn btn-warning btn-sm "> More Search options</button>
+                    </div>
+                -->
+              </form>
+            </div>
+
+        </div>
 
     </div>
     <footer>
