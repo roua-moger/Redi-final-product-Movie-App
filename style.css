@@ -23,7 +23,7 @@ nav ul a:hover{
 .background{
     background-image: url("images/site-background.jpg"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
-  height: 700px; /* You must set a specified height */
+  height: 100%; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -81,3 +81,11 @@ nav ul a:hover{
 font-size: 1.5em !important;
 }
 
+.movie-card{
+  margin: 20px 0 0 20px;
+
+}
+
+.movie-img{
+  height: 300px;
+}
